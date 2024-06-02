@@ -2,7 +2,7 @@
 
 - This is a repository for building and pushing Docker images required by Cairo tools.
 - The images are intended to be used in environments where Docker is easily applicable and Python (especially venvs) is not.
-- One example of such an environment are Node.js projects, more specifically - [Hardhat](https://github.com/nomiclabs/hardhat) projects, where these images can be used by [Hardhat Docker plugin](https://www.npmjs.com/package/@nomiclabs/hardhat-docker).
+- One example of such an environment is Node.js projects, more specifically - [Hardhat](https://github.com/nomiclabs/hardhat) projects, where these images can be used by [Hardhat Docker plugin](https://www.npmjs.com/package/@nomiclabs/hardhat-docker).
 
 ## Versions
 
