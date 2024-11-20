@@ -1,4 +1,4 @@
-FROM python:3.9.13-alpine3.16 AS compiler
+FROM python:3.12.0a7-alpine3.16 AS compiler
 
 ARG SCARB_VERSION
 
@@ -30,7 +30,7 @@ RUN pip wheel --no-cache-dir --no-deps\
     cairo-lang==$CAIRO_VERSION openzeppelin-cairo-contracts==$OZ_VERSION
 
 # Final image
-FROM python:3.9.13-alpine3.16
+FROM python:3.12.0a7-alpine3.16
 
 ARG SCARB_VERSION
 
